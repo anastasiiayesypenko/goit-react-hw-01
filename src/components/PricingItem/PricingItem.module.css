@@ -1,0 +1,69 @@
+.icon {
+  margin: 0 auto;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #c0c0c0;
+  font-family: 'Oswald';
+  font-weight: 400;
+}
+
+.capacity {
+  font-style: 17px;
+  color: #b4b4b4;
+}
+
+.price {
+  font-size: 40px;
+  color: #7f8c8d;
+  font-family: 'Oswald';
+  font-weight: 400;
+}
+
+.Bronze {
+  color: #dd7c4b;
+}
+
+.Gold {
+  color: #dda431;
+}
+
+.Silver {
+  color: #c0c0c0;
+}
+
+.button {
+  width: 205px;
+  height: 50px;
+  margin: 5px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Oswald';
+  font-weight: 400;
+  border: none;
+}
+
+.GoldButton {
+  composes: button;
+  background-color: #dda431;
+}
+
+.BronzeButton {
+  composes: button;
+  background-color: #dd7c4b;
+}
+
+.SilverButton {
+  composes: button;
+  background-color: #c0c0c0;
+}
+
+.description {
+  color: #bababa;
+  font-size: 15px;
+  padding: 5px;
+  font-family: 'Raleway', sans-serif;
+}
