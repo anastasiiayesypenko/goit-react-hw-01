@@ -5,10 +5,10 @@ import styles from './PricingItem.module.css';
 const PricingItem = ({ label, icon, capacity, price, description }) => (
   <div className={styles.item}>
     <i
-      className={styles.icon}
       style={{
         background: `url(${icon})`,
         height: '162px',
+        margin: '0 auto',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'bottom',
         width: '214px',
